@@ -94,9 +94,9 @@ if __name__ == "__main__":
     report_path = os.path.join(cur_path, "report")  # 测试报告文件夹
     report_file = get_report_file(report_path)  # 3获取最新的测试报告
     #邮箱配置
-    # sender = "407170791@qq.com"
-    # psw = "ykdrrinrewttbibf"
+    # sender = "xxxx@qq.com"
+    # psw = "awdrrinrewttbibf"
     # smtp_server = "smtp.qq.com"
     # port = 465
-    # receiver = "407170791@qq.com"
+    # receiver = "xxxx@qq.com"
     # send_mail(sender, psw, receiver, smtp_server, report_file, port)  # 4最后一步发送报告
