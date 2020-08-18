@@ -32,11 +32,11 @@ class Login_case(unittest.TestCase):
 
     def test_01(self):
         '''正确账号密码，登录成功'''
-        self.login_c("cctv", "123456", "企业账户中心-首页-土拨鼠网", True)
+        self.login_c("cctv", "123456", "企业账户中心-首页", True)
 
     def test_02(self):
         '''正确账号错误密码，登录不成功'''
-        self.login_c("cctv", "12345", "企业账户中心-首页-土拨鼠网", False)
+        self.login_c("cctv", "12345", "企业账户中心-首页", False)
 
 
 if __name__ == "__main__":
